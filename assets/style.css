@@ -1,0 +1,81 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;;
+}
+/* // Topnav  */
+.topnavicon{
+  transition: 2s;
+}
+.topnavicon:hover{
+  color: black !important;
+}
+/* // navtwo  */
+.nav-link{
+  color: rgb(3 4 126) !important;
+  transition: 1s;
+}
+.nav-link:hover{
+  color: red !important;
+}
+#navcloseicon{
+  transition: 1s;
+  color: white;
+}
+#navcloseicon:hover{
+  color: red;
+  transform: rotate(90deg);
+}
+
+@media  (min-width: 990px) {
+  #sidenav{
+    display: none;
+    visibility: hidden ;
+  }
+}
+@media  (max-width: 991px) {
+  .topnav{
+    display: none;
+  }
+  #navtwoicon{
+    display: block !important;
+    font-size: 5vw;
+  }
+  #sidenav{
+    visibility: hidden ;
+    display: block;
+  }
+  .carousel-item .carsoualbg{
+    height: 70vh !important;
+    object-fit: cover;
+  }
+  .carsoualalign{
+    height: 100vh !important;
+  }
+  .carsoualpara{
+    font-size: 7vw !important;
+  }
+  .carsoualhfour{
+    font-size: 11vw !important;
+    width: 100% !important;
+  }
+  .carsoualclient1{
+    width: 10vw !important;
+    height: 10vw !important;
+  }
+  .carsoualclient{
+    width: 10vw !important;
+    height: 10vw !important;
+    margin-left: -6vw !important;
+  }
+  .carsoualhthree{
+    font-size: 4vw !important;
+  }
+  .carsoualalign{
+    margin-top: -20vw !important;
+  }
+  .carsoualtop{
+    display: none !important;
+  }
+}
