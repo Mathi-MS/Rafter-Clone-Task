@@ -2,7 +2,8 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;;
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
 }
 /* // Topnav  */
 .topnavicon{
@@ -26,6 +27,20 @@
 #navcloseicon:hover{
   color: red;
   transform: rotate(90deg);
+}
+/* // bottomcarsoual  */
+.bottomcarsoualbg{
+  transition: 2s;
+}
+.bottomcarsoualbg:hover{
+  background-color: red !important;
+}
+.bottomcarsoualbgp a{
+  /* color:  rgb(2, 2, 49); */
+  transition: 1s;
+}
+.bottomcarsoualbgp a:hover{
+  color: red !important;
 }
 
 @media  (min-width: 990px) {
@@ -77,5 +92,15 @@
   }
   .carsoualtop{
     display: none !important;
+  }
+  /* // bottomcarsoual  */
+  .bottomcarsoualbg i{
+    font-size: 15vw !important;
+  }
+  .bottomcarsoualbg p{
+    font-size: 4vw !important;
+  }
+  .bottomcarsoualbgp p{
+    font-size: 4vw !important;
   }
 }
