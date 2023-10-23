@@ -5,6 +5,10 @@
   font-family: 'Poppins', sans-serif;
   scroll-behavior: smooth;
 }
+
+body{
+  overflow-x: hidden;
+}
 /* // Topnav  */
 .topnavicon{
   transition: 2s;
@@ -102,5 +106,25 @@
   }
   .bottomcarsoualbgp p{
     font-size: 4vw !important;
+  }
+  /* // roffing  */
+  .roofing img{
+    width: 100% !important;
+    object-fit: cover;
+  }
+  .roffingjquery{
+    width: 100% !important;
+  }
+  .roffingdtwo h4{
+    font-size: 1rem;
+  }
+  .roofingdivtwoimg{
+    width: 20vw !important;
+    height: 20vw !important;
+    border-radius: 300px !important;
+    margin-right: 2vw !important;
+  }
+  .roofingdivtwoimgt{
+    margin-left: -12vw !important;
   }
 }

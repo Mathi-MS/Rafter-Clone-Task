@@ -10,3 +10,5 @@ navtwoicon.addEventListener("click",function(){
   navcloseicon.addEventListener("click",function(){
     sidenav.style.visibility="hidden"
   })
+
+
