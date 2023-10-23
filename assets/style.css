@@ -46,6 +46,15 @@ body{
 .bottomcarsoualbgp a:hover{
   color: red !important;
 }
+/* // providingbox  */
+.providingbox,.insidehoveri,.insidehover{
+  transition: 2s;
+}
+.providingbox:hover{
+  background-color: red !important;.insidehover, .insidehoveri{
+    color: white !important;
+  }
+}
 
 
 @media  (min-width: 990px) {
