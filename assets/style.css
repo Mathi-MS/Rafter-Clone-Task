@@ -145,12 +145,13 @@ body{
   .providingscrollflexx div{
     width: 20vw !important;
     height: 20vw !important;
+    margin-left: 5vw;
   }
   .providingscrollflexx i{
-    font-size: 10vw !important;
+    font-size: 4vw !important;
   }
   .providingscrollflexx h4{
-    font-size: 7vw !important;
+    font-size: 2vw !important;
   }
   .providingbox i{
     padding-left: 8vw !important;
@@ -158,6 +159,8 @@ body{
   }
   .providingscrollflex{
     overflow-x: scroll !important;
+    overflow-y: hidden;
+    
   }
   
   
