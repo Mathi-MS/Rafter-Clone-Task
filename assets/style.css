@@ -47,6 +47,7 @@ body{
   color: red !important;
 }
 
+
 @media  (min-width: 990px) {
   #sidenav{
     display: none;
@@ -127,4 +128,37 @@ body{
   .roofingdivtwoimgt{
     margin-left: -12vw !important;
   }
+  .roffingdtwo{
+    flex-direction: column;
+  }
+  /* //providing  */
+  .providingg {
+    flex-direction: column;
+  }
+  /* .providingg h2{
+    display: block !important;
+  }
+  .providingg h2{
+    display: block !important;
+  } */
+
+  .providingscrollflexx div{
+    width: 20vw !important;
+    height: 20vw !important;
+  }
+  .providingscrollflexx i{
+    font-size: 8vw !important;
+  }
+  .providingscrollflexx h4{
+    font-size: 4vw !important;
+  }
+  .providingbox i{
+    padding-left: 5vw;
+    padding-right: 5vw;
+  }
+  .providingscrollflex{
+    overflow-x: scroll !important;
+  }
+  
+  
 }
