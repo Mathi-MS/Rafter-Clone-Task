@@ -61,7 +61,38 @@ body{
   clip-path: polygon(50% 0%, 100% 50%, 100% 100%, 0 100%, 0 50%) !important;
   background-color: rgb(234, 24, 38) !important;
 }
+/* // video  */
+.arrowvideo{
+  animation-name: arrowmove;
+  animation-iteration-count: infinite;
+  animation-duration: 5s;
+}
 
+@keyframes arrowmove{
+  0%{
+    top: 7vw;
+  }
+  50%{
+    top: 9vw;
+  }
+  100%{
+    top: 7vw;
+  }
+}
+/* // review  */
+.clipart{
+  clip-path: polygon(77% 0, 96% 83%, 100% 84%, 100% 100%, 0 100%, 0 0, 38% 0);
+  background-color: #102039;
+  padding-right:6vw ;
+  padding-left: 2vw;
+}
+/* // clientsays */
+.card:hover{
+  border-color:  red;.clipart,.clipart p{
+    background-color: red;
+    color: white !important;
+  }
+}
 
 @media  (min-width: 990px) {
   #sidenav{
@@ -215,6 +246,47 @@ body{
   }
   .videoicons{
     font-size: 12vw !important;
-    
+  }
+  .videoimage{
+    width: 100% !important;
+  }
+  .arrowvideo{
+    display: none;
+  } 
+  .videowatch{
+    display: none;
+  }
+  .experts{
+    flex-direction: column;
+    align-items: center;
+  }
+  .choose-us{
+    position: relative;
+    flex-direction: column;
+    top: -22vw !important;
+  }
+  .choose-us i{
+    font-size: 18vw !important;
+  }
+  .choose-us img{
+    width: 100% !important;
+  }
+  .clientsaysflex{
+    flex-direction: column;
+    align-items: center;
+    gap: 15vw;
+  }
+  .clientsaysfleximg{
+    width: 20vw !important;
+  }
+  .clientsaysfleximga{
+    width: 20vw !important;
+    height: 20vw !important;
+  }
+  #clientsays{
+    margin-top: -35vw !important;
+  }
+  .clipart h5{
+    padding-right: 9vw;
   }
 }
