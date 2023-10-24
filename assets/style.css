@@ -55,6 +55,12 @@ body{
     color: white !important;
   }
 }
+/* /// booking  */
+.booking_sec{
+  padding: 60px 10px 30px 10px;
+  clip-path: polygon(50% 0%, 100% 50%, 100% 100%, 0 100%, 0 50%) !important;
+  background-color: rgb(234, 24, 38) !important;
+}
 
 
 @media  (min-width: 990px) {
@@ -151,8 +157,15 @@ body{
     display: block !important;
   } */
 
-  .providingscrollflexx div{
-    margin-left: 5vw;
+
+  .providingbox{
+    height: 33vw ;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 4vw;
+  }
+  .providingboxone{
+    margin-left: 160vw;
   }
   .providingscrollflexx i{
     font-size: 8vw !important;
@@ -187,5 +200,21 @@ body{
   }
   body{
     overflow-x: hidden;
+  }
+  /* //booking  */
+  .awardimage img{
+    width: 30vw;
+    height: 30vw;
+  } 
+  textarea{
+    width: 84vw;
+  }
+  /* // video  */
+  .videoicon{
+    gap: 5vw !important;
+  }
+  .videoicons{
+    font-size: 12vw !important;
+    
   }
 }
